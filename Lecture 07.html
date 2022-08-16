@@ -1,0 +1,45 @@
+<!-- In this Lecture We will discuse about Forms and Input Tags -->
+<!-- First We will discuse about Forms -->
+<!-- It is very important topic of HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h2>Please Fill this HTML Form</h2>
+    <form action="backend.php">
+        <!-- Text Form Filling as you can see in other website -->
+        <!-- We can use label -->
+        <label for="name">Name</label>
+        <input type="text" name="Myname" id="name"><br>
+        <label for="phone">Phone No</label>
+        <input type="text" name="MyPhone" id="phone"><br>
+        Email: <input type="email" name="MyEmail"><br>
+        Bonus:<input type="number" name="MyBonus"><br>
+        Date:<input type="date" name="Mydate"><br>
+        Are you Eligible:<input type="checkbox" nama="Myeligibility"><br>
+        <!-- Rasio Button -->
+        You Gender:Male<input type="radio" name="MyGender"> Female<input type="radio" name="MyGender">
+        Other<input type="radio" name="MyGender"><br>
+
+        write abour yourself: <br><textarea name="mytext" cols="30" rows="10"></textarea><br>
+        <!-- Selection and Options -->
+        <label for="car">Please select car</label>
+        <select name="mycar" id="car">
+            <option value="Honda Civic">Honda Civic</option>
+            <option value="Tyoata Altis">Tyoata Altis</option>
+            <option value="BMW">BMW</option>
+        </select><br>
+        <!-- Buttons -->
+        <input type="button" value="Submit Now">
+        <input type="reset" value="reset Now">
+    </form>
+</body>
+
+</html>
